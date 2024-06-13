@@ -1,7 +1,7 @@
 import HomePage from "./pages/HomePage"
 import Sidebar from "./components/Sidebar"
 import { Route, Routes } from "react-router-dom"
-import FavouritesPage from "./pages/FavouritesPage";
+import FavoritesPage from "./pages/FavoritesPage";
 
 function App() {
 
@@ -11,7 +11,7 @@ function App() {
         <Sidebar />
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/favourites" element={<FavouritesPage />} />
+          <Route path="/favorites" element={<FavoritesPage />} />
         </Routes>
       </div>
     </div>
